@@ -20,7 +20,7 @@ function func_basic_info {
 
     $myhostname_output = "Hostname: " + $myhostname
     
-    $myuser = whoami    #to get the username
+    $myuser = $env:UserName    #to get the username
     
     $myuser_output = "Current User: " + $myuser
     
