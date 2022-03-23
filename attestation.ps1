@@ -114,9 +114,12 @@ function func_hashinfo {
     To OTS: Please take a quick screenshot of the hash output below and send to
     SecAdmin via email or TG group chat with the name of the user.
 
-    To EndUser: Please fill up the form https://forms.gle/jarPdgfrJjqhhe7R7. 
-    Upload the generated output file $outputfilepath. 
-    The hash of $myfilename will be counterchecked by SecAdmin.
+
+    To EndUser: Please fill up the form that will be provided by SecAdmin.
+
+    In that same form, upload the generated output file in -> $outputfilepath. 
+
+    Do not modify the contents of $myfilename. It will be counterchecked by SecAdmin i.e. MD5 hash.
 "@ 
 
     Write-Host $submission_steps -ForegroundColor Green
