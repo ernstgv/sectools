@@ -27,7 +27,7 @@ def applistfunc():
 
     return applist
 
-def md5checksum(fname):
+def md5checksum(fname):  # from https://www.quickprogrammingtips.com/python/how-to-calculate-md5-hash-of-a-file-in-python.html
     md5hash = hashlib.md5()
 
     filetohash = open(fname, "rb")
